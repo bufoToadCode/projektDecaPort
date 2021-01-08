@@ -10,6 +10,7 @@ body{
 }
 
 .nav-wrap {
+   background: #242424;
    display: flex;
    justify-content: space-between;
    padding: 38px;
@@ -21,6 +22,7 @@ body{
 }
 
 .nav-wrap > .left-side > div {
+
    text-transform: uppercase;
    margin-right: 20px;
    font-size: 0.9rem;
@@ -33,22 +35,22 @@ body{
 
 .nav-link-wrap {
    height: 22px;
-   border-bottom: 1px solid transparent;
-   transition: border-bottom 0.5s;
+   border-bottom: 2px solid transparent;
+   transition: border-bottom .5s;
 }
 
 .nav-link-wrap a {
-   color: #8a8a8a;
+   color: #8D8D8D;
    text-decoration: none;
-   transition: color 0.5s;
+   transition: color .5s;
 }
 
 .nav-link-wrap:hover {
-   border-bottom: 1px solid black;
+   border-bottom: 2px solid #8D8D8D;
 }
 
 .nav-link-wrap a:hover  {
-   color: black;
+   color: #8D8D8D;
 }
 
 /* Port Styles */
@@ -66,7 +68,7 @@ body{
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   height: 350px; 
+   height: 350px ; 
    width: 100%;
 }
 
@@ -98,24 +100,25 @@ body{
 
 .img-text-wrap:hover .subtitle{
    font-weight: 600;
-   color: lightseagreen;
+   color: #8D8D8D;
 }
 .img-darken {
-   transition: 1s;
+   transition: .5s;
    filter: brightness(15%);
 }
 
 .active-nav-link{
-   border-bottom: 1px solid black;
+   border-bottom: 2px solid #8D8D8D;
 }
 
 .active-nav-link a{
-   color: black !important;
+   color: #8D8D8D;
 }
 
 /* about page*/
 
 .two-column-wrap{
+   float: inline-start;
    display: grid;
    grid-template-columns: 1fr 1fr;
 }
@@ -124,8 +127,8 @@ body{
    background-size: auto;
    background-position: center;
    background-repeat: no-repeat;
-   height: 750px; 
    width: 100%;
+   height: auto;;
 }
 
 .profile-content-wrap{
@@ -133,5 +136,5 @@ body{
 }
 
 .profile-content-wrap h1 {
-   color: lightseagreen;
+   color: #8D8D8D;
 }
